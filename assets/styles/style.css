@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.logo img {
+    width: 150px;
+}
+
+
+header {
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul  {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: black;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.548);
+}
+
+
+
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.redes-sociais img {
+    width: 20px;
+}
+
+/* section */ 
+section {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.container-section-1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto-quem-somos {
+    line-height: 25px;
+    width: 330px;
+}
+
+.texto-quem-somos h1 {
+    margin-bottom: 20px;
+    color:#666666 ;
+    font-size: 40px;
+}
+
+.texto-quem-somos p {
+    font-weight: bold;
+    color: #494949;
+    font-size: 17px;
+}
+
+.borda {
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: 10%;
+}
+
+
+/* section 2 */ 
+
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img-banner img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+/* section 3 */ 
+
+.container-section-3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-do-lado-servicos h1 {
+    color: gray;
+    font-size: 70px;
+
+}
+
+.texto-do-lado-servicos ul li {
+    font-size: 25px;
+    line-height: 35px;
+    color: #494949;
+}
+
+.bordaa {
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: 20%;
+}
+
+imgdolado {
+    width: 100%;
+    height: 100%;
+}
+
+.imgdolado img {
+    width: 800px;
+}
+
+
+/* section 4 */
+
+
+
+.container-section-4 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.texto-trabalhos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.texto-trabalhos h1 {
+    color: rgb(88, 88, 88);
+    font-size: 40px;
+}
+
+.bordaaa {
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: 3%;
+}
+
+
+/* SECTION  5 */
+
+.container-section-5 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-contato img{
+    width: 600px;
+
+}
+
+.contato-texto {
+    display: flex;
+    background-color: rgb(146, 146, 146);
+    width: 100%;
+   justify-content: flex-end;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+
+.texto-de-dentro {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.texto-de-dentro h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.texto-de-dentro p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.redes-sociaiss {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button {
+    font-weight: bold;
+    margin-top: 20px;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    padding: 10px 60px;
+}
+
+.redes-sociaiss img {
+    width: 20px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.direitos h2 {
+font-size: 15px;
+}
+
+
+.img-footer{
+    width: 100%;
+    height: 100%;
+}
+.img-footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
