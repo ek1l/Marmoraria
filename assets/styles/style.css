@@ -217,7 +217,7 @@ section {
 
 .container-section-3 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 80px;
     align-items: center;
     width: 100%;
