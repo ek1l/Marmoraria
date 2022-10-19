@@ -2,6 +2,20 @@
 
 
 
+@media (min-width: 1920px) {
+    .textoo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        margin-left: 20%;
+        font-size: 30px;
+        gap: 16px;
+        color: white;
+        position: absolute;
+    }
+}
+
+
 
 
 @media (max-width: 1270px) {
