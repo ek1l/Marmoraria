@@ -39,6 +39,7 @@ li {
 
 h1 {
     font-family: 'ah1';
+    font-weight: 400;
 }
 
 h3 {
@@ -162,7 +163,7 @@ section {
 }
 
 .texto-quem-somos p {
-    font-weight: bold;
+
     color: #494949;
     font-size: 17px;
 }
@@ -313,14 +314,14 @@ imgdolado {
 }
 
 .texto-de-dentro h1 {
-    font-weight: bold;
+
     margin-bottom: 25px;
     font-size: 50px;
 }
 
 .texto-de-dentro p {
     font-size: 20px;
-    font-weight: bold;
+  
 }
 
 .redes-sociaiss {
