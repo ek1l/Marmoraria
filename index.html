@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/carrossel-main.css">
     <link rel="stylesheet" href="./assets/styles/carrossel2.css">
+    <link rel="stylesheet" href="./assets/styles/responsivo.css">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
@@ -22,20 +23,23 @@
 </head>
 <body>
 
-    <header>
-        <nav>
+    <header class="header1">
+        <nav id="nav" class="itens">
             <div class="logo">
-              <a href="#"><img src="./assets/img/logo.png" alt="logo"></a> 
+              <a href="home"><img src="./assets/img/logo.png" alt="logo"></a> 
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
+            <button id="btnmobile">&equiv;
+      
+            </button>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
                 <div class="redes-sociais">
-                 <a href="#"><img src="./assets/img/whatsapp.png" alt="Whatzapp"></a>
-                 <a href="#"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                 <a href="https://api.whatsapp.com/send?phone=5512997553097&text=Ol%C3%A1%20!" target="_blank"><img src="./assets/img/whatsapp.png" alt="Whatzapp"></a>
+                 <a href="https://www.instagram.com/lk_marmoraria_/" target="_blank"><img src="./assets/img/instagram.png" alt="Instagram"></a>
                     <a href="#"><img src="./assets/img/facebook-logotype.png" alt="Facebook"></a>
                 </div>
             </ul>
@@ -57,8 +61,8 @@
 
 
         <section>
-            <div class="container-section-1">
-                    <div class="img">
+            <div id="quem-somos" class="container-section-1">
+                    <div class="imgg">
                         <img src="./assets/img/quem-somos.png" alt="">
                     </div>
 
@@ -73,17 +77,25 @@
 
 
         <section>
-            <div class="container-section-2">
+            <divclass="container-section-2">
                 <div class="img-banner">
-                    <img src="./assets/img/banner-meio.png" alt="">
+                    <div class="textoo">
+                        <h3>MÁRMORES</h3>
+                        <h3>GRANITOS</h3>
+                        <h3>QUARTZO</h3>                      
+                        <h3>PEDRAS DECORATIVAS</h3>
+                    <div class="bordes"></div>
+                    </div>
+                    <img src="./assets/img/LK Marmoraria - Serviços.png" alt="">
                 </div>
-            </div>
+            </divclass=>
         </section>
 
 
 
         <section>
-            <div class="container-section-3">
+            <div  id="servicos"  class="container-section-3">
+
                 <div class="texto-do-lado-servicos">
                     <h1>SERVIÇOS</h1>
                     <div class="bordaa"></div>
@@ -107,7 +119,7 @@
         <section>
             <div class="container-section-4">
 
-                <div class="texto-trabalhos">
+                <div id="produtos" class="texto-trabalhos">
                     <h1>TRABALHOS RECENTES</h1>
                     <div class="bordaaa"></div>
                 </div>
@@ -132,10 +144,10 @@
 
                   </div>
             </div>
-        </section>
+        </section>  
 
         <section>
-            <div class="container-section-5">
+            <div id="contato" class="container-section-5">
                 
 
                 <div class="img-contato">
@@ -152,8 +164,8 @@
                     <button>Fale conosco!</button>
                 
                     <div class="redes-sociaiss">
-                        <a href="#"><img src="./assets/img/whatsapp.png" alt="Whatzapp"></a>
-                        <a href="#"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                        <a href="https://api.whatsapp.com/send?phone=5512997553097&text=Ol%C3%A1%20!" target="_blank"><img src="./assets/img/whatsapp.png" alt="Whatzapp"></a>
+                        <a href="https://www.instagram.com/lk_marmoraria_/" target="_blank"><img src="./assets/img/instagram.png" alt="Instagram"></a>
                            <a href="#"><img src="./assets/img/facebook-logotype.png" alt="Facebook"></a>
                        </div>
                     </div>
@@ -202,7 +214,7 @@
       loopFillGroupWithBlank: true,
       pagination: {
         el: ".swiper-pagination",
-        clickable: true,
+        clickable: true, 
       },
       navigation: {
         nextEl: ".swiper-button-next",
@@ -210,6 +222,8 @@
       },
     });
   </script>
+
+<script src="./assets/scripts/script.js"></script>
 
 
 

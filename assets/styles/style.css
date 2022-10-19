@@ -6,6 +6,66 @@
 }
 
 
+@font-face {
+    font-family: 'ah1';
+    src: url(../fontes/IMPACT.TTF) format('opentype');
+    
+}
+
+@font-face {
+    font-family: 'ah2';
+    src: url(../fontes/GEOMETR415\ BLK\ BT\ BLACK.TTF) format('opentype');
+    
+}
+
+p {
+    font-family: 'ah2';
+}
+
+h2 {
+    font-family: 'ah2';
+}
+
+li {
+    font-family: 'ah2'; 
+}
+
+
+h1 {
+    font-family: 'ah1';
+}
+
+h3 {
+    font-family: 'ah2';
+}
+
+a {
+    font-family: 'ah2';
+}
+
+button {
+    font-family: 'ah2';
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c1ab96;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid  beige;  /* creates padding around scroll thumb */
+  }
+
+
 .logo img {
     width: 150px;
 }
@@ -24,6 +84,7 @@ nav {
 }
 
 nav ul  {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     margin-top: 50px;
@@ -102,8 +163,24 @@ section {
 
 .img-banner img {
     width: 100%;
-    height: 550px;
+    height: 600px;
     object-fit: cover;
+}
+
+.textoo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 20%;
+    font-size: 30px;
+    gap: 16px;
+    color: white;
+    position: absolute;
+}
+
+.bordes {
+    border-bottom: 2px solid white;
+
 }
 
 /* section 3 */ 
@@ -115,6 +192,13 @@ section {
     align-items: center;
     width: 100%;
     height: 100%;
+    
+}
+
+.texto-do-lado-servicos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .texto-do-lado-servicos h1 {

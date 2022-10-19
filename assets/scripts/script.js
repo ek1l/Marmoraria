@@ -1,8 +1,9 @@
-import Swiper, {
-    SwiperPluginLazyload,
-    SwiperPluginPagination
-} from 'tiny-swiper'
 
-Swiper.use([ SwiperPluginLazyload, SwiperPluginPagination ])
+ /* BOTAO RESPONSIVO MENU HAMBURGUER */
 
-const swiper = new Swiper(swiperContainer: HTMLElement | string, parameters?: TinySwiperParameters)
+ const btnMobile = document.getElementById('btnmobile')
+ function toggleMenu () {
+     const nav = document.getElementById('nav')
+     nav.classList.toggle('active')
+ }
+ btnMobile.addEventListener('click', toggleMenu)

@@ -32,6 +32,7 @@
 
   .swiper-wrapper img {
     border-radius: 5px;
+    cursor:grab;
     transition: 0.3s;
   }
 
