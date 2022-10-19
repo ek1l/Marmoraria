@@ -333,7 +333,7 @@ imgdolado {
     margin-top: 25px;
 }
 
-button {
+#but {
     font-weight: bold;
     margin-top: 20px;
     background: none;
@@ -344,7 +344,7 @@ button {
     cursor: pointer;
     transition: 0.3s;
 }
-button:hover {
+#but:hover {
     padding: 10px 60px;
 }
 
