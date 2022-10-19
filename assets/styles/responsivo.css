@@ -97,6 +97,11 @@
 }
 
 @media (max-width: 630px) {
+
+
+    .logo img {
+        width: 100px;
+    }
     .swiper-slide img {
         display: block;
         width: 100%;

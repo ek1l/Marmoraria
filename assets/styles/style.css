@@ -18,6 +18,12 @@
     
 }
 
+@font-face {
+    font-family: 'ah3';
+    src: url(../fontes/BAHNSCHRIFT\ \(1\).TTF) format('opentype');
+    
+}
+
 p {
     font-family: 'ah2';
 }
@@ -27,7 +33,7 @@ h2 {
 }
 
 li {
-    font-family: 'ah2'; 
+    font-family: 'ah3';
 }
 
 
@@ -39,8 +45,24 @@ h3 {
     font-family: 'ah2';
 }
 
-a {
+.texto-quem-somos h1 {
     font-family: 'ah2';
+}
+
+.texto-quem-somos p {
+    font-family: 'ah3';
+}
+
+.textoo h3{
+    font-family: 'ah3';
+}
+
+.texto-de-dentro p{
+    font-family: 'ah3';
+}
+
+a {
+    font-family: 'ah3';
 }
 
 button {
