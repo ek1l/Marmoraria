@@ -97,11 +97,17 @@ html {
 .borda-acima {
     width: 100%;
     background-color: #494949;
-    height: 25px;
+    height: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 
+
 header {
+
     padding-top: 30px;
     width: 100%;
     height: 100%;
@@ -124,19 +130,44 @@ nav ul  {
 nav ul li a {
     color: black;
     transition: 0.4s;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
     color: rgba(0, 0, 0, 0.548);
 }
 
+.whatzapp-fixed {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    background: #0d7b00;
+    z-index: 999;
+    border-radius: 70px;
+    transition: .5s;
+}
 
+.whatzapp-fixed:hover {
+    right: 0;
+    padding: 10px;
+    transition: .5s;
+}
+
+
+.whatzapp-fixed img {
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+}
 
 
 .redes-sociais {
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-right: 40px;
+    padding-top: 6px;
+    justify-content: center;
 }
 
 .redes-sociais img {
